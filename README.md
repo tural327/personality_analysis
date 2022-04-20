@@ -62,3 +62,37 @@ plt.ylabel('Erors')
 plt.title("Finding optimal K kluster")
 ```
 ![](https://github.com/tural327/test/blob/main/img/cluster.png) <br />
+
+so we will appy algorithm with 3 class and result for each group:  <br />
+Group 1 size is 600,Group 2 size is 402,Group 3 size is 579
+
+# Classification model
+I used different type of classification models for find best one 
+
+```python
+log_reg = LogisticRegression()
+cls_tree = DecisionTreeClassifier()
+knn = KNeighborsClassifier()
+lda = LinearDiscriminantAnalysis()
+gnb = GaussianNB()
+```
+Train score at LogisticRegression() is 0.6725738396624472
+Test score at LogisticRegression() is 0.6464646464646465
+**************************************************
+Train score at DecisionTreeClassifier() is 1.0
+Test score at DecisionTreeClassifier() is 1.0
+**************************************************
+Train score at KNeighborsClassifier() is 1.0
+Test score at KNeighborsClassifier() is 1.0
+**************************************************
+Train score at LinearDiscriminantAnalysis() is 0.9265822784810127
+Test score at LinearDiscriminantAnalysis() is 0.8939393939393939
+**************************************************
+Train score at GaussianNB() is 0.8573839662447258
+Test score at GaussianNB() is 0.8181818181818182
+**************************************************
+
+
+After training our model I decided to select DecisionTreeClassifier 
+
+# Flask application
