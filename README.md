@@ -96,3 +96,7 @@ Test score at GaussianNB() is 0.8181818181818182
 After training our model I decided to select DecisionTreeClassifier 
 
 # Flask application
+ 
+ Here is simple server. You need just fill numbers and see customer group 
+ 
+![](https://github.com/tural327/test/blob/main/img/Screenshot%202022-04-25%20014438.png) 
