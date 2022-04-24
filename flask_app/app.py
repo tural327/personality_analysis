@@ -112,7 +112,7 @@ def test():
         my_end_res = end_res
 
     return render_template("index.html" , my_end_res = my_end_res)
-7
+
 
 if __name__ == "__main__":
     app.run()
