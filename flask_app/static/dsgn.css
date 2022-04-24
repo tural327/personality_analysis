@@ -1,0 +1,340 @@
+.bg {
+	opacity: 0.4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.name_rel {
+	position: absolute;
+	top: 1%;
+	left: 14%;
+}
+
+.option_rel {
+	position: absolute;
+	top: 10%;
+	left: 14%;
+}
+
+.name_kid {
+	position: absolute;
+	top: 1%;
+	left: 28%;
+}
+
+.option_kid {
+	position: absolute;
+	top: 10%;
+	left: 28%;
+}
+
+.name_teen {
+	position: absolute;
+	top: 1%;
+	left: 41%;
+}
+
+.option_teen {
+	position: absolute;
+	top: 10%;
+	left: 41%;
+}
+
+.name_ed {
+	position: absolute;
+	top: 1%;
+	left: 54%;
+}
+
+.option_ed {
+	position: absolute;
+	top: 10%;
+	left: 54%;
+}
+
+.name_res {
+	position: absolute;
+	top: 1%;
+	left: 68%;
+}
+
+.option_res {
+	position: absolute;
+	top: 10%;
+	left: 68%;
+}
+
+.name_1 {
+	position: absolute;
+	top: 13%;
+	left: 14%;
+}
+
+.option_1 {
+	position: absolute;
+	top: 22%;
+	left: 14%;
+}
+
+.name_2 {
+	position: absolute;
+	top: 13%;
+	left: 28%;
+}
+
+.option_2 {
+	position: absolute;
+	top: 22%;
+	left: 28%;
+}
+
+.name_3 {
+	position: absolute;
+	top: 13%;
+	left: 41%;
+}
+
+.option_3 {
+	position: absolute;
+	top: 22%;
+	left: 41%;
+}
+
+.name_4 {
+	position: absolute;
+	top: 13%;
+	left: 54%;
+}
+
+.option_4 {
+	position: absolute;
+	top: 22%;
+	left: 54%;
+}
+
+.name_5 {
+	position: absolute;
+	top: 13%;
+	left: 68%;
+}
+
+.option_5 {
+	position: absolute;
+	top: 22%;
+	left: 68%;
+}
+
+
+.income {
+	position: absolute;
+	top: 24%;
+	left: 16%;
+}
+
+.income_v {
+	position: absolute;
+	top: 32%;
+	left: 16%;
+}
+
+.Recency {
+	position: absolute;
+	top: 24%;
+	left: 25%;
+}
+
+.Recency_v {
+	position: absolute;
+	top: 32%;
+	left: 25%;
+}
+
+.MntFruits {
+	position: absolute;
+	top: 24%;
+	left: 34%;
+}
+
+.MntFruits_v {
+	position: absolute;
+	top: 32%;
+	left: 34%;
+}
+
+.MntMeatProducts {
+	position: absolute;
+	top: 24%;
+	left: 44%;
+}
+
+.MntMeatProducts_v {
+	position: absolute;
+	top: 32%;
+	left: 45%;
+}
+
+
+.MntWines2 {
+	position: absolute;
+	top: 24%;
+	left: 72%;
+}
+
+.MntWines2_v {
+	position: absolute;
+	top: 32%;
+	left: 72%;
+}
+
+
+.NumDealsPurchases {
+	position: absolute;
+	top: 24%;
+	left: 58%;
+}
+
+.NumDealsPurchases_v {
+	position: absolute;
+	top: 32%;
+	left: 59%;
+}
+
+
+.NumWebPurchases {
+	position: absolute;
+	top: 34%;
+	left: 13%;
+}
+
+.NumWebPurchases_v {
+	position: absolute;
+	top: 42%;
+	left: 15%;
+}
+
+
+.NumCatalogPurchases {
+	position: absolute;
+	top: 34%;
+	left: 29%;
+}
+
+.NumCatalogPurchases_v {
+	position: absolute;
+	top: 42%;
+	left: 32%;
+}
+
+
+.NumStorePurchases {
+	position: absolute;
+	top: 34%;
+	left: 47%;
+}
+
+.NumStorePurchases_v {
+	position: absolute;
+	top: 42%;
+	left: 49%;
+}
+
+
+.Income2 {
+	position: absolute;
+	top: 34%;
+	left: 63%;
+}
+
+.Income2_v {
+	position: absolute;
+	top: 42%;
+	left: 62%;
+}
+
+.MntGoldProds2 {
+	position: absolute;
+	top: 34%;
+	left: 72%;
+}
+
+.MntGoldProds2_v {
+	position: absolute;
+	top: 42%;
+	left: 72%;
+}
+
+
+.NumWebVisitsMonth {
+	position: absolute;
+	top: 46%;
+	left: 16%;
+}
+
+.NumWebVisitsMonth_v {
+	position: absolute;
+	top: 54%;
+	left: 18%;
+}
+
+
+.MntMeatProducts2 {
+	position: absolute;
+	top: 46%;
+	left: 32%;
+}
+
+.MntMeatProducts2_v {
+	position: absolute;
+	top: 54%;
+	left: 34%;
+}
+
+
+.MntFishProducts2 {
+	position: absolute;
+	top: 46%;
+	left: 48%;
+}
+
+.MntFishProducts2_v {
+	position: absolute;
+	top: 54%;
+	left: 50%;
+}
+
+
+.MntSweetProducts2 {
+	position: absolute;
+	top: 46%;
+	left: 65%;
+}
+
+.MntSweetProducts2_v {
+	position: absolute;
+	top: 54%;
+	left: 65%;
+}
+
+
+.but {
+	background-color: #4CAF50;
+	color: whitesmoke;
+	text-align: center;
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	padding: 15px 32px;
+	border-radius: 50%;
+}
+
+.res {
+	position: absolute;
+	top: 62%;
+	left: 15%;
+	font-size: 30px;
+	color: darkred;
+}

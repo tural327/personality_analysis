@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/dsgn.css">
     <title>Custom Group</title>
 
 </head>
 <body>
+    <img class="bg" src="static/bg.jpg",alt="">
     <form action="/" method="POST">
-        <h2 class="name">Education :</h2>
-        <select class="option" name="education">
+        <h2 class="name_ed">Education :</h2>
+        <select class="option_ed" name="education">
             <option disabled="disabled" selected="selected">--Select Education type</option>
             <option>Graduation</option>
             <option>PhD</option>
@@ -19,8 +21,8 @@
             <option>2n Cycle</option>
         </select>
 <!--rel status-->
-        <h2 class="name">Relation :</h2>
-        <select class="option" name="marrige">
+        <h2 class="name_rel">Relationship :</h2>
+        <select class="option_rel" name="marrige">
             <option disabled="disabled" selected="selected">--Select status type</option>
             <option>Single</option>
             <option>Together</option>
@@ -31,16 +33,16 @@
         </select>
 
 <!--kidhome-->
-        <h2 class="name">kidhome :</h2>
-        <select class="option" name="kidhome">
+        <h2 class="name_kid">Kidhome :</h2>
+        <select class="option_kid" name="kidhome">
             <option disabled="disabled" selected="selected">--Select kidhome type</option>
             <option>0</option>
             <option>1</option>
             <option>2</option>
         </select>
 <!--teenhome-->
-        <h2 class="name">teenhome :</h2>
-        <select class="option" name="teenhome">
+        <h2 class="name_teen">Teenhome :</h2>
+        <select class="option_teen" name="teenhome">
             <option disabled="disabled" selected="selected">--Select teenhome type</option>
             <option>0</option>
             <option>1</option>
@@ -48,96 +50,101 @@
         </select>
 
 <!--AcceptedCmp3-->
-            <h2 class="name">AcceptedCmp3 :</h2>
-            <select class="option" name="AcceptedCmp3">
+            <h2 class="name_3">AcceptedCmp3 :</h2>
+            <select class="option_3" name="AcceptedCmp3">
                 <option disabled="disabled" selected="selected">--Select AcceptedCmp3</option>
                 <option>0</option>
                 <option>1</option>
             </select>
 <!--AcceptedCmp2-->
-            <h2 class="name">AcceptedCmp2 :</h2>
-            <select class="option" name="AcceptedCmp2">
+            <h2 class="name_2">AcceptedCmp2 :</h2>
+            <select class="option_2" name="AcceptedCmp2">
                 <option disabled="disabled" selected="selected">--Select AcceptedCmp2</option>
                 <option>0</option>
                 <option>1</option>
             </select>
-            <h2 class="name">AcceptedCmp4 :</h2>
-            <select class="option" name="AcceptedCmp4">
+            <h2 class="name_4">AcceptedCmp4 :</h2>
+            <select class="option_4" name="AcceptedCmp4">
                 <option disabled="disabled" selected="selected">--Select AcceptedCmp4</option>
                 <option>0</option>
                 <option>1</option>
             </select>
 
 
-            <h2 class="name">AcceptedCmp5 :</h2>
-            <select class="option" name="AcceptedCmp5">
+            <h2 class="name_5">AcceptedCmp5 :</h2>
+            <select class="option_5" name="AcceptedCmp5">
                 <option disabled="disabled" selected="selected">--Select AcceptedCmp5</option>
                 <option>0</option>
                 <option>1</option>
             </select>
 
-            <h2 class="name">AcceptedCmp1 :</h2>
-            <select class="option" name="AcceptedCmp1">
+            <h2 class="name_1">AcceptedCmp1 :</h2>
+            <select class="option_1" name="AcceptedCmp1">
                 <option disabled="disabled" selected="selected">--Select AcceptedCmp1</option>
                 <option>0</option>
                 <option>1</option>
             </select>
 
-            <h2 class="name">Response :</h2>
-            <select class="option" name="Response">
+            <h2 class="name_res">Response :</h2>
+            <select class="option_res" name="Response">
                 <option disabled="disabled" selected="selected">--Select Response</option>
                 <option>0</option>
                 <option>1</option>
             </select>
 
 
-            <h2 class="income">income</h2>
-            <input class="income_v" type="text" name="income" size="5" maxlength="6">
+            <h2 class="income">Income</h2>
+            <input class="income_v" type="text" name="income" size="10" maxlength="10">
 
             <h2 class="Recency">Recency</h2>
-            <input class="Recency_v" type="text" name="Recency" size="5" maxlength="6">
+            <input class="Recency_v" type="text" name="Recency" size="10" maxlength="10">
 
             <h2 class="MntFruits">MntFruits</h2>
-            <input class="MntFruits_v" type="text" name="MntFruits" size="5" maxlength="6">
+            <input class="MntFruits_v" type="text" name="MntFruits" size="15" maxlength="10">
 
             <h2 class="MntMeatProducts">MntMeatProducts</h2>
-            <input class="MntMeatProducts_v" type="text" name="MntMeatProducts" size="5" maxlength="6">
+            <input class="MntMeatProducts_v" type="text" name="MntMeatProducts" size="20" maxlength="10">
 
-            <h2 class="NumDealsPurchases">MntMeatProducts</h2>
-            <input class="NumDealsPurchases_v" type="text" name="NumDealsPurchases" size="5" maxlength="6">
+            <h2 class="NumDealsPurchases">NumDealsPurchases</h2>
+            <input class="NumDealsPurchases_v" type="text" name="NumDealsPurchases" size="20" maxlength="10">
 
             <h2 class="NumWebPurchases">NumWebPurchases</h2>
-            <input class="NumWebPurchases_v" type="text" name="NumWebPurchases" size="5" maxlength="6">
+            <input class="NumWebPurchases_v" type="text" name="NumWebPurchases" size="15" maxlength="10">
 
             <h2 class="NumCatalogPurchases">NumCatalogPurchases</h2>
-            <input class="NumCatalogPurchases_v" type="text" name="NumCatalogPurchases" size="5" maxlength="6">
+            <input class="NumCatalogPurchases_v" type="text" name="NumCatalogPurchases" size="15" maxlength="10">
 
             <h2 class="NumStorePurchases">NumStorePurchases</h2>
-            <input class="NumStorePurchases_v" type="text" name="NumStorePurchases" size="5" maxlength="6">
+            <input class="NumStorePurchases_v" type="text" name="NumStorePurchases" size="15" maxlength="10">
 
             <h2 class="NumWebVisitsMonth">NumWebVisitsMonth</h2>
-            <input class="NumWebVisitsMonth_v" type="text" name="NumWebVisitsMonth" size="5" maxlength="6">
+            <input class="NumWebVisitsMonth_v" type="text" name="NumWebVisitsMonth" size="15" maxlength="20">
 
             <h2 class="Income2">Income2</h2>
-            <input class="Income2_v" type="text" name="Income2" size="5" maxlength="6">
+            <input class="Income2_v" type="text" name="Income2" size="15" maxlength="10">
 
             <h2 class="MntWines2">MntWines2</h2>
-            <input class="MntWines2_v" type="text" name="MntWines2" size="5" maxlength="6">
+            <input class="MntWines2_v" type="text" name="MntWines2" size="15" maxlength="10">
 
             <h2 class="MntMeatProducts2">MntMeatProducts2</h2>
-            <input class="MntMeatProducts2_v" type="text" name="MntMeatProducts2" size="5" maxlength="6">
+            <input class="MntMeatProducts2_v" type="text" name="MntMeatProducts2" size="15" maxlength="10">
 
             <h2 class="MntFishProducts2">MntFishProducts2</h2>
-            <input class="MntFishProducts2_v" type="text" name="MntFishProducts2" size="5" maxlength="6">
+            <input class="MntFishProducts2_v" type="text" name="MntFishProducts2" size="15" maxlength="10">
 
             <h2 class="MntGoldProds2">MntGoldProds2</h2>
-            <input class="MntGoldProds2_v" type="text" name="MntGoldProds2" size="5" maxlength="6">
+            <input class="MntGoldProds2_v" type="text" name="MntGoldProds2" size="15" maxlength="10">
 
             <h2 class="MntSweetProducts2">MntSweetProducts2</h2>
-            <input class="MntSweetProducts2_v" type="text" name="MntSweetProducts2" size="5" maxlength="6"><br>
+            <input class="MntSweetProducts2_v" type="text" name="MntSweetProducts2" size="15" maxlength="20"><br>
             
-            <button type="submit" value="submit">Press for Result</button>
+            <button class="but" type="submit" value="submit">Show Type Of Customer</button>
     </form>
+    {%if my_end_res%}
+    <p class="res">Person belong to group {{my_end_res}}</p>
+    {%endif%}
+
+
 
 
 </body>
